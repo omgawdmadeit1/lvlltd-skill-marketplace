@@ -10,7 +10,7 @@
     "pages:deploy": "wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
-    "next": "15.5.18",
+    "next": "15.5.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "clsx": "^2.1.1",
@@ -23,8 +23,15 @@
     "@types/react-dom": "^18",
     "typescript": "^5",
     "tailwindcss": "^3.4.4",
-    "postcss": "^8",
+    "postcss": "8.5.23",
     "autoprefixer": "^10",
     "wrangler": "^3.60.0"
+  },
+  "overrides": {
+    "nanoid": "3.3.18",
+    "js-yaml": "4.3.2",
+    "sharp": "0.35.4",
+    "postcss": "8.5.23",
+    "brace-expansion": "1.1.18"
   }
 }
